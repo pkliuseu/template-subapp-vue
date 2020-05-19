@@ -1,5 +1,7 @@
 {
   "name": "wl-template-mfe-subapp-vue",
+  "author": "weilan",
+  "description": "a vue project",
   "port": "8080",
   "version": "0.1.0",
   "private": true,
