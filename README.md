@@ -1,5 +1,9 @@
 # wl-template-mfe-subapp-vue
 
+基于qiankun的微前端子应用项目模板
+
+[教程传送门](https://juejin.im/post/5ea803d15188256d7110c909)
+
 ## Project setup
 ```
 yarn install
