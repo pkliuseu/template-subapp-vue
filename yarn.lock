@@ -8280,10 +8280,10 @@ wl-core@^1.0.0, wl-core@^1.0.9:
     big.js "^5.2.2"
     dayjs "^1.8.25"
 
-wl-http@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/wl-http/-/wl-http-1.1.1.tgz#b901c4b351c830e0da64870bf26593388af33c6e"
-  integrity sha512-jHCm5glh4V8bGM0Wm+pksWKtJpoBFE5if1qzR8sySoZGM71TIh3BdEwIaLFX/jlIghfBTIJ5V2NMWkSMnTxBEQ==
+wl-http@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/wl-http/-/wl-http-1.1.2.tgz#10188d7339cbf5489ff4f5755179ce777327161e"
+  integrity sha512-SnvCL0boQznKoOG99oxKowOUSjBOghel3d4e7xMwBeM7jlPV90CJSP2kmsTIlCv5cOQ4382nGwrBNqJFJa8Q4Q==
   dependencies:
     axios "^0.18.0"
     mockjs "^1.1.0"
