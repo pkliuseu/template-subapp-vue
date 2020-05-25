@@ -46,5 +46,12 @@ module.exports = {
       libraryTarget: "umd",
       jsonpFunction: `webpackJsonp_${name}`
     }
+  },
+  css: {
+    loaderOptions: {
+      sass: {
+        prependData: `@import "./src/assets/css/variables/variables.scss";`
+      }
+    }
   }
 };
