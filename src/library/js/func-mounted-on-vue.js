@@ -6,7 +6,6 @@
  * @param {*} opend 
  */
 
-import { format } from "./time"; // 导入时间格式化函数
 import { validate } from "./validate"; // 导入整体校验函数
 
 /**
@@ -110,7 +109,6 @@ export {
   flat,
   removeEmptyObject,
   removeEmptyProperty,
-  format, // 时间格式化函数
   deepForEach,
   isArray,
   isObject,
