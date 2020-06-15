@@ -1,5 +1,6 @@
 const path = require("path");
 const { name, port } = require("./package");
+const ips = require('../config/ip-configs/index')
 
 function resolve(dir) {
   return path.join(__dirname, dir);
@@ -14,7 +15,7 @@ module.exports = {
    * In most cases please use '/' !!!
    * Detail: https://cli.vuejs.org/config/#publicpath
    */
-  publicPath: dev ? `//localhost:${port}` : "/",
+  publicPath: dev ? `//${ips.entry || 'localhost'}:${port}` : "/",
   outputDir: "dist",
   assetsDir: "static",
   filenameHashing: true,
